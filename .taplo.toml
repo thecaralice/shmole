@@ -1,0 +1,4 @@
+[formatting]
+indent_string = "\t"
+compact_arrays = false
+array_auto_collapse = false

@@ -1,0 +1,28 @@
+[package]
+name = "shmole"
+description = "Shell debugging utility"
+authors = [ "Alice Carroll <crates@alice-carroll.pet>" ]
+version = "0.0.1"
+rust-version = "1.58.0"
+edition = "2021"
+readme = "README.md"
+repository = "https://github.com/thecaralice/shmole.git"
+license = "MIT"
+categories = [
+	"command-line-utilities",
+	"development-tools::debugging",
+]
+keywords = [
+	"shell",
+	"environment",
+	"debug-printing",
+	"command-line",
+]
+
+[[bin]]
+name = "mole"
+path = "src/main.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
